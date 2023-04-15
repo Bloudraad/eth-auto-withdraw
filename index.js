@@ -43,7 +43,7 @@ const main = async () => {
                 from: depositWalletAddress,
                 nonce: await depositWallet.getTransactionCount(),
                 value: currentBalance.sub(maxGasFee),
-                chainId: 4, // mainnet: 1
+                chainId: 1, // mainnet: 1
                 gasPrice: gasPrice,
                 gasLimit: gasLimit,
               }
